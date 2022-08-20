@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1"
+    />
+    <title>Document</title>
+    <link rel="preload" href="./img/landing.jpg" as="image" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body class="page">
+    <div class="carousel page__carousel">
+      <div class="carousel__control-secondary">
+        <i class="bi bi-x-lg carousel__toggle-off"></i>
+      </div>
+      <div class="carousel__control-primary">
+        <i class="bi bi-chevron-left carousel__move"></i>
+        <div class="carousel__image-container"></div>
+        <i class="bi bi-chevron-right carousel__move"></i>
+      </div>
+    </div>
+    <nav class="nav page_nav">
+      <img src="img/logo.png" class="nav__header nav__navigate" />
+      <i class="bi bi-list nav__exit"></i>
+      <div class="nav__effect nav__effect_off"></div>
+      <div class="nav__menu">
+        <i class="bi bi-x-lg"></i>
+        <ul>
+          <li class="nav__navigate">City</li>
+          <li class="nav__navigate">People</li>
+          <li class="nav__navigate">Commisioned</li>
+          <li class="nav__navigate">Lifestyle</li>
+          <li class="nav__navigate">Contact</li>
+        </ul>
+      </div>
+    </nav>
+    <section class="page__photo-showcase photo-showcase_hero">
+      <div class="hero_text-container">
+        <h1>John Smith</h1>
+        <div class="hero_line"></div>
+        <h3>Photographer</h3>
+      </div>
+      <div class="hero_color-overlay"></div>
+    </section>
+    <section class="page__photo-showcase photo-showcase__hide">
+      <h2>City:</h2>
+      <article class="photo-showcase_masonry">
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/city/city-1.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/city/city-2.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/city/city-3.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/city/city-6.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/city/city-5.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/city/city-4.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/city/city-7.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/city/city-6.jpg"
+          alt=""
+        />
+      </article>
+    </section>
+    <section class="page__photo-showcase photo-showcase__hide">
+      <h2>People:</h2>
+      <article class="photo-showcase_masonry">
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/ppl/ppl-1.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/ppl/ppl-2.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/ppl/ppl-3.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/ppl/ppl-4.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/ppl/ppl-5.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/ppl/ppl-6.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/ppl/ppl-5.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/ppl/ppl-6.jpg"
+          alt=""
+        />
+      </article>
+    </section>
+    <section class="page__photo-showcase photo-showcase__hide">
+      <h2>Commisioned:</h2>
+      <article class="photo-showcase_masonry">
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/cms/cms-1.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/cms/cms-2.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/cms/cms-3.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/cms/cms-4.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/cms/cms-5.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/cms/cms-6.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/cms/cms-7.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/cms/cms-8.jpg"
+          alt=""
+        />
+      </article>
+    </section>
+    <section class="page__photo-showcase photo-showcase__hide">
+      <h2>Lifestyle:</h2>
+      <article class="photo-showcase_masonry">
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/travel/travel-9.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/travel/travel-1.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/travel/travel-2.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/travel/travel-10.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/travel/travel-3.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/travel/travel-4.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/travel/travel-11.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/travel/travel-5.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/travel/travel-6.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/travel/travel-7.jpg"
+          alt=""
+        />
+        <img
+          class="carousel__open photo-showcase_image"
+          src="./img/travel/travel-8.jpg"
+          alt=""
+        />
+      </article>
+    </section>
+    <section
+      class="page__photo-showcase photo-showcase_contact photo-showcase__hide"
+    >
+      <img class="contact_img" src="./img/contact.jpg" alt="" />
+      <h2>Contact Me:</h2>
+      <article>
+        <div class="contact_adress contact_text">
+          <h5>General</h5>
+          <ul>
+            <li>example@gmail.com</li>
+            <li>T +123 45 67 89</li>
+            <li>Street 99</li>
+            <li>1234 City</li>
+          </ul>
+        </div>
+        <div class="contact_studio contact_text">
+          <h5>Studio</h5>
+          <ul>
+            <li>Studio Street</li>
+            <li>1234 StudioCity</li>
+          </ul>
+          <ul>
+            <li>John Smith</li>
+            <li>Photographer</li>
+            <li><i class="bi bi-instagram"></i> Instagram</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+    <footer class="page__footer footer_hidden">
+      <div class="footer_divider"></div>
+      <div class="footer_content">
+        <div class="footer_list-primary">
+          <ul>
+            <li>John Smith</li>
+            <li>Photographer</li>
+            <li><i class="bi bi-instagram"></i> Instagram</li>
+          </ul>
+        </div>
+        <div class="footer_list-secondary">
+          <li>example@gmail.com</li>
+          <li>T +123 45 67 89</li>
+          <li>Street 99</li>
+          <li>1234 City</li>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Bebas+Neue&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Bebas+Neue&display=swap"
+    rel="stylesheet"
+  />
+  <script src="./script/main.js"></script>
+</html>
